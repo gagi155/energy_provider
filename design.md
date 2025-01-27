@@ -1,30 +1,58 @@
 # Energy provider
 
-## Starting the application
+## Getting Started
+
+### Prerequisites
+
+- Ensure you're in the project's root directory
+
+- Open a terminal session
 
 First position yourself in the root folder of the project and open terminal.
 
-### Compiling the application
+## Building the Application
 
-The following command is used for building the application:
+To compile and package the application:
 
-```
-    mvn -f ./energy-provider/pom.xml clean package
-```
+```bash
 
-### Running the application
-
-Position yourself in folder where .jar file is located.
-
-The following command is used for running the application:
+mvn -f ./energy-provider/pom.xml clean package
 
 ```
-    java -jar energy-provider-0.0.1-SNAPSHOT.jar --sorting.order= <Order>
+
+_This will create an executable JAR file in the `target` directory._
+
+---
+
+## Running the Application
+
+Execute the JAR with your preferred sorting order:
+
+```bash
+
+java -jar energy-provider/target/energy-provider-0.0.1-SNAPSHOT.jar --sorting.order=<ORDER>
+
 ```
 
-Order can be "ASC" or "DESC".
+**Parameters:**
 
-## Project Arhitecture
+- `<ORDER>`: Specify sorting direction
+
+- `ASC`: Ascending order (default)
+
+- `DESC`: Descending order
+
+_Example:_
+
+```bash
+
+java -jar energy-provider-0.0.1-SNAPSHOT.jar --sorting.order=desc
+
+```
+
+---
+
+## Project Architecture
 
 ### Technologies
 
@@ -32,20 +60,19 @@ The application is built using **Spring Boot** framework with H2 in-memory datab
 
 ### Structure
 
-**REST API** is used as the arhitecture style in this project
-The project contains three layers: **Controller**, **Service** and **Repository**.
+The project follows the REST API architectural style and is structured into three layers:
 
-#### Controller
+1. Controller
 
-This layer defines API endpoints of the project.
+   - Defines API endpoints for the application.
 
-#### Service
+2. Service
 
-This layer contains business logic of the project.
+   - Contains the business logic of the application.
 
-#### Repository
+3. Repository
 
-This layer is used for retrieving and storing data.
+   - Handles data retrieval and storage.
 
 ## Testing
 
