@@ -1,15 +1,19 @@
-#Energy provider
+# Energy provider
 
-##Starting the application
+## Starting the application
+
 First position yourself in the root folder of the project and open terminal
-###Compiling the application
+
+### Compiling the application
+
 The following command is used for building the application:
 
 ```
     mvn -f ./energy-provider/pom.xml clean package
 ```
 
-###Running the application
+### Running the application
+
 The following command is used for running the application:
 
 ```
