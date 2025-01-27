@@ -14,7 +14,7 @@ The following command is used for building the application:
 
 ### Running the application
 
-Position yourself in folder where .jar file is located. \
+Position yourself in folder where .jar file is located.
 
 The following command is used for running the application:
 
@@ -32,7 +32,7 @@ The application is built using **Spring Boot** framework with H2 in-memory datab
 
 ### Structure
 
-**REST API** is used as the arhitecture style in this project \
+**REST API** is used as the arhitecture style in this project
 The project contains three layers: **Controller**, **Service** and **Repository**.
 
 #### Controller
