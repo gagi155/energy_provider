@@ -20,7 +20,7 @@ The following command is used for running the application:
     java -jar energy-provider-0.0.1-SNAPSHOT.jar --sorting.order= <Order>
 ```
 
-Order can bi "ASC" or "DESC".
+Order can be "ASC" or "DESC".
 
 ## Project Arhitecture
 
