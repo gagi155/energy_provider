@@ -46,3 +46,7 @@ This layer contains business logic of the project.
 #### Repository
 
 This layer is used for retrieving and storing data.
+
+## Testing
+
+Apllication contains unit tests for each of the layers.
