@@ -14,6 +14,8 @@ The following command is used for building the application:
 
 ### Running the application
 
+Position yourself in folder where .jar file is located. \
+
 The following command is used for running the application:
 
 ```
